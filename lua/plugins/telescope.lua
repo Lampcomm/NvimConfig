@@ -89,7 +89,7 @@ return {
 		vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "Search by Grep" })
 		vim.keymap.set("n", "<leader>sd", builtin.diagnostics, { desc = "Search Diagnostics" })
 		vim.keymap.set("n", "<leader>sr", builtin.resume, { desc = "Search Resume" })
-		vim.keymap.set("n", "<leader>s.", builtin.oldfiles, { desc = 'Search Recent Files ("." for repeat)' })
+		vim.keymap.set("n", "<leader>so", builtin.oldfiles, { desc = 'Search Recent Files ("." for repeat)' })
 		vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
 
 		-- Slightly advanced example of overriding default behavior and theme

@@ -68,3 +68,6 @@ vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, GetOpts("Go to previous diag
 vim.keymap.set("n", "]d", vim.diagnostic.goto_next, GetOpts("Go to next diagnostic message"))
 vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, GetOpts("Open floating diagnostic message"))
 vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, GetOpts("Open diagnostics list"))
+
+vim.keymap.set("n", "<C-n>", ":ene<CR>", GetOpts("Create new buffer"))
+
